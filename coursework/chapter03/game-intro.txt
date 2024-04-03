@@ -1,0 +1,35 @@
+<!--	
+	Author: Luke A. Brannock
+	Date: March 18 2024
+	File:	game-intro.txt
+	Purpose:Chapter 3 Exercise
+-->
+
+game-intro.html algorithm:
+
+Prompt character name
+Get character name
+Prompt select character type
+Get charater type
+Prompt enter number of experience tokens to purchase
+Get number of experience tokens
+Prompt enter number of health tokens to purchase
+Get number of health tokens to purchase
+Prompt enter number of supply tokens to purchase
+Get number of supply tokens to purchase
+Submit data to game-intro.php
+
+END
+
+game-intro.php algorithm:
+
+Receive data from game-intro.html
+characterName = received character name
+characterType = received character type
+numExperiencetokens = received number of experience tokens to purchase
+numHealthTokens = received number of health tokens to purchase
+numSupplyTokens = received number of supply tokens to purchase
+goldPieces = (numHealthTokens / 10) + (numExperiencetokens / 2) + (numSupplyTokens / 25)
+Display characters name, type, number of each token purchased, total cost in gold pieces
+
+END

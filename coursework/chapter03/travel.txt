@@ -1,0 +1,29 @@
+<!--	
+	Author: Luke A. Brannock
+	Date: March 12 2024
+	File:	travel.txt
+	Purpose:Chapter 3 Exercise
+-->
+
+travel.html algorithm:
+
+Prompt number of people traveling
+Get number of people traveling 
+Prompt number of nights to reserve
+Get number of nights to reserve
+Submit data to travel.php
+
+
+END
+
+travel.php algorithm:
+
+Receive data from travel.html
+numTravelers = received number of people traveling
+numNights = received number of nights to reserve
+airlineCost = numTravelers * 875.00
+hotelCost = numTravelers * 110.00 * numNights
+totalCost = airlineCost + hotelCost
+Display number of people traveling, number of nights, cost of airline tickets, cost of hotel, total cost.
+
+END

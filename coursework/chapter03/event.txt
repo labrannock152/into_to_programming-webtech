@@ -1,0 +1,14 @@
+<!--	
+	Author: Luke A. Brannock
+	Date: March 12 2024
+	File:	event.txt
+	Purpose:Chapter 3 Exercise 
+-->
+	
+event.html algorithm:
+	
+END
+
+event.php algorithm:
+
+END

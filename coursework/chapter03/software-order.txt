@@ -1,0 +1,29 @@
+<!--	
+	Author: Luke A. Brannock
+	Date: March 12 2024
+	File:	software-order.txt
+	Purpose:Chapter 3 Exercise
+-->
+
+software-order.html algorithm:
+
+Prompt to enter number of copies
+Get number of copies
+Prompt for type of operating system (Windows, MacOS)
+Get operating system (Windows, MacOS)
+Submit data to software-order.php
+
+END
+
+software-order.php algorithm:
+
+Receive data from software-order.html 
+numCopies = received number of copies
+operatingSystem = recived operating system
+subtotal = numCopies * 35.00
+tax = subtotal * 0.07
+shippingHandling = numCopies * 1.25
+totalCost = subtotal + tax + shippingHandling
+Display operating system, numbrer of copies ordered, subtotal, tax, shippingHandling, totalCost
+
+END

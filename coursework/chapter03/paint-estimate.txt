@@ -1,0 +1,54 @@
+<!--	
+	Author: Luke A. Brannock
+	Date: March 12 2024
+	File:	paint-estimate.txt
+	Purpose:Chapter 3 Exercise
+-->
+
+paint-estimate.html algorithm:
+
+Prompt for length of room
+Get length
+Prompt for width of room
+Get width
+Prompt for height of room
+Get height
+Submit length, width, height, to paint-estimate.php
+
+END
+
+
+
+paint-estimate.php algorithm:
+
+Receive length, width, height, from paint-estimate.html
+Calulate area of each long Wall
+areaLongWall = length * height
+
+Calculate area of each wide Wall
+areaWideWall = width * height
+
+Calculate area of base ceiling 
+areaCeiling = length * width
+
+Caluclate total are of ceiling and four walls combined 
+totalArea = 2 * (areaLongWall) + 2 * (areadWideWall) + areaCeiling
+
+Calulate coverage of paint required
+paintCoverage = totalArea / 400
+
+Calulate cost of paint
+paintCost + paintCoverage * 17.00
+
+Calculate labor required
+laborHours = totalArea / 200
+
+Calculate labor cost
+laborCost = laborHours * 25.00
+
+Calculate total cost
+totalCost = paintCost + laborCost 
+
+Display length, width, height, totalArea, paintcost, laborCost, totalCost
+
+END
